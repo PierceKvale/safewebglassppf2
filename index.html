@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeWebsite — Where Protection Becomes Perfection</title>
+  <meta name="description" content="Premium automotive detailing, window tinting, paint protection film and ceramic coating. Where Protection Becomes Perfection." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="navbar-brand">SafeWebsite</a>
+    <ul class="navbar-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="why-us.html">Why Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="contact.html" class="btn-book">Book Now</a>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="services.html">Services</a>
+    <a href="why-us.html">Why Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="contact.html" class="btn-book">Book Now</a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-content">
+      <h1 class="hero-title fade-up">
+        <span class="line">Where Protection</span>
+        <span class="line">Becomes <span class="gold">Perfection</span></span>
+      </h1>
+      <div class="hero-cta fade-up delay-2">
+        <a href="services.html" class="btn btn-glass">Explore Our Services</a>
+      </div>
+      <div class="hero-car-wrap fade-in delay-3">
+        <div class="hero-car-img" role="img" aria-label="Dark luxury car in studio lighting, glossy finish"></div>
+      </div>
+    </div>
+    <div class="hero-fade"></div>
+  </section>
+
+  <!-- ── ABOUT STRIP ── -->
+  <section class="about-strip">
+    <p class="about-strip-title fade-up">
+      We are SafeWebsite — the premium destination for automotive paint protection,<br />ceramic coating, and window tinting.
+    </p>
+    <p class="about-cycling-text fade-up delay-2" id="cycling-text"></p>
+  </section>
+
+  <!-- ── SERVICES PREVIEW ── -->
+  <section class="services-preview">
+    <div class="services-preview-header">
+      <span class="section-label fade-up">Our Core Services</span>
+      <h2 class="section-title fade-up delay-1">We Protect <span class="gold">With Precision</span></h2>
+      <span class="services-preview-arrow fade-up delay-2">→</span>
+    </div>
+
+    <div class="service-cards-grid">
+
+      <!-- Card 1: PPF -->
+      <article class="service-card fade-up">
+        <div class="service-card-bg img-placeholder img-ppf-hand"
+             role="img" aria-label="Gloved hands applying PPF film to a car hood, dramatic lighting"></div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+          </div>
+          <h3 class="service-card-title">Paint Protection Film</h3>
+          <p class="service-card-desc">Invisible armor for your paint. Guards against rock chips, scratches, and UV damage.</p>
+        </div>
+      </article>
+
+      <!-- Card 2: Ceramic -->
+      <article class="service-card fade-up delay-2">
+        <div class="service-card-bg img-placeholder img-ceramic-bead"
+             role="img" aria-label="Machine polisher on a sparkling ceramic-coated car surface"></div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-2.12-.73-4.06-1.95-5.6M15 9l-3 3-1.5-1.5" />
+            </svg>
+          </div>
+          <h3 class="service-card-title">Ceramic Coating</h3>
+          <p class="service-card-desc">Hydrophobic nano-ceramic protection that keeps your car cleaner, longer.</p>
+        </div>
+      </article>
+
+      <!-- Card 3: Tinting -->
+      <article class="service-card fade-up delay-4">
+        <div class="service-card-bg img-placeholder img-tint-city"
+             role="img" aria-label="Tint film being applied to a car window with a squeegee"></div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+            </svg>
+          </div>
+          <h3 class="service-card-title">Window Tinting</h3>
+          <p class="service-card-desc">Precision-cut tint films for UV rejection, heat reduction, and privacy.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ── STATS STRIP ── -->
+  <section class="stats-strip">
+    <div class="stats-strip-header">
+      <span class="section-label fade-up">By The Numbers</span>
+      <h2 class="section-title fade-up delay-1">Details That <span class="gold">Matter</span></h2>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card fade-up">
+        <span class="stat-number" data-target="500" data-suffix="+">0</span>
+        <span class="stat-label">Vehicles Protected</span>
+      </div>
+      <div class="stat-card fade-up delay-1">
+        <span class="stat-number" data-target="8" data-suffix="+">0</span>
+        <span class="stat-label">Years of Experience</span>
+      </div>
+      <div class="stat-card fade-up delay-2">
+        <span class="stat-number" data-target="3">0</span>
+        <span class="stat-label">Core Services</span>
+      </div>
+      <div class="stat-card fade-up delay-3">
+        <span class="stat-number" data-target="100" data-suffix="%">0</span>
+        <span class="stat-label">Satisfaction Guaranteed</span>
+      </div>
+      <div class="stat-card fade-up delay-4">
+        <span class="stat-number" data-target="10" data-suffix="+">0</span>
+        <span class="stat-label">Premium Film Brands</span>
+      </div>
+      <div class="stat-card fade-up delay-5">
+        <span class="stat-number" data-target="1">0</span>
+        <span class="stat-label">Dedicated Location</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA BANNER ── -->
+  <section class="cta-banner">
+    <div class="cta-banner-inner fade-up">
+      <div class="cta-banner-content">
+        <h2 class="cta-banner-title">Ready To Protect<br />Your Car?</h2>
+        <p class="cta-banner-desc">Let's build a package tailored to your vehicle, your lifestyle, and your standards.</p>
+        <div class="cta-banner-buttons">
+          <a href="contact.html" class="btn btn-solid-gold">Book A Consultation</a>
+          <a href="services.html" class="btn btn-glass">View Services</a>
+        </div>
+      </div>
+      <div class="cta-banner-img">
+        <div class="img-placeholder img-cta-car" role="img" aria-label="Dramatic close-up of a glossy car hood reflecting studio lights"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-name">SafeWebsite</span>
+          <span class="footer-tagline">"Where Protection Becomes Perfection"</span>
+        </div>
+        <div class="footer-icons">
+          <a href="tel:+15550000000" class="footer-icon" title="Call Us">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+            </svg>
+          </a>
+          <a href="mailto:hello@safewebsite.com" class="footer-icon" title="Email Us">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </a>
+          <a href="#" class="footer-icon" title="Instagram" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-icon" title="Facebook" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <p class="footer-bottom">© 2026 SafeWebsite. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
